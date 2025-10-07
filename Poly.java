@@ -1,6 +1,6 @@
 
 class MathOperation {
- // Method Overloading: same method name, different parameters
+ 
  int multiply(int a, int b) {
      return a * b;
  }
@@ -39,7 +39,7 @@ class Math {
      System.out.println("Multiply (int): " + math.multiply(5, 3));
      System.out.println("Multiply (double): " + math.multiply(2.5, 4.0));
 
-     // Method Overriding
+     
      Vehicle v1 = new Car();     // Vehicle reference to Car object
      Vehicle v2 = new Bicycle(); // Vehicle reference to Bicycle object
 
